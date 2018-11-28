@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.198.129/sell?characterEncoding=utf-8&useSSL=false
+    jpa:
+      show-sql: true
+    jackson:
+        default-property-inclusion: NON_NULL
+    thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .ftl
+server:
+  context-path: /sell
+
+
+wechat:
+  mpAppId: wxd898fcb01713c658
+  mpAppSecret: 29d8a650db31472aa87800e3b0d739f2
